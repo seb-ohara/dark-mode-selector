@@ -6,8 +6,12 @@ function colorMode (){
     //however this method only takes the input of a color as an RGB value
     if (getComputedStyle(backgColor).backgroundColor === 'rgb(245, 245, 220)'){
         backgColor.style.backgroundColor = 'black';
+        modeButton.style.backgroundColor = 'beige';
+        modeButton.style.color = 'black';
     } else if (getComputedStyle(backgColor).backgroundColor === 'rgb(0, 0, 0)'){
         backgColor.style.backgroundColor = 'beige';
+        modeButton.style.backgroundColor = 'black';
+        modeButton.style.color = 'beige';
     }
 }
 
