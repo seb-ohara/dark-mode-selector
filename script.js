@@ -1,3 +1,4 @@
+//you need to initialize the HTML element into a variable before anything can be done to it
 const modeButton = document.getElementById("button1");
 const backgColor = document.querySelector("body");
 
@@ -17,5 +18,5 @@ function colorMode (){
 
 modeButton.addEventListener('click',colorMode);
 
-//This was awesome learning, you basically coded the entire thing by yourself, you just use
+//This was awesome to learn, you basically coded the entire thing by yourself, you just use
 //the wrong method to change the background color but now you have learnt what you need to do
